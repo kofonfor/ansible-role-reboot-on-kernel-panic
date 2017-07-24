@@ -1,0 +1,3 @@
+---
+- name: set kernel.panic to 20
+  sysctl: name=kernel.panic value=20
